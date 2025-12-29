@@ -35,6 +35,7 @@ body {
 }
 
 #game {
+  position:relative;
   background: rgba(0, 0, 0, 0.7);
   color: rgb(21, 255, 0);
   width: 60%;
@@ -74,7 +75,7 @@ footer {
 
 #botao-inicio {
     position: fixed;
-    left: 10px;
+    right: 10px;
     bottom:10px;
   background-color: #151515;
   color: #f2f2f2;
@@ -91,3 +92,4 @@ footer {
   background-color: rgb(21, 255, 0);
   color: #000;
 }
+
