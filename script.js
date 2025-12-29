@@ -209,7 +209,7 @@ const cenas = {
     imagem:"url('')",
     opcoes:[
       {texto: "1 - atacar o Orc pelas costas", proxima:"costas"},
-      {texto: "2 - Distrair o Orc com barulho enquanto liberta seu companheiro?", prixima:"distracao"},
+      {texto: "2 - Distrair o Orc com barulho enquanto liberta seu companheiro?", proxima:"distracao"},
     ]
   },
   andar:{
@@ -301,5 +301,6 @@ const botaoInicio = document.getElementById('botao-inicio');
 botaoInicio.addEventListener('click', () => {
     carregarCena("inicio");
 });
+
 
 
