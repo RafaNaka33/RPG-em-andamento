@@ -1,0 +1,93 @@
+@font-face {
+  font-family: '04b';
+  src: url('fonts/04B_03__.ttf') format('truetype');
+}
+body {
+  margin: 0;
+  font-family: 'RotundaGothic';
+  src: url('fonts/RotundaGothic.woff') format('woff'),
+       url('fonts/RotundaGothic.ttf') format('truetype');
+    font-size: 20px;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: rgb(99, 99, 99);
+}
+
+#titulo{
+    color: rgb(21, 255, 0);
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border: solid black;
+    border-width: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    
+}
+#subtitulo{
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: rgb(21, 255, 0);
+}
+
+#game {
+  background: rgba(0, 0, 0, 0.7);
+  color: rgb(21, 255, 0);
+  width: 60%;
+  margin: auto;
+  margin-top: 2.5%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#prompt {
+  height: 120px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  white-space: pre-wrap;
+  border: 1px solid rgb(21, 255, 0);
+  padding: 10px;
+  margin-bottom: 20px;
+  white-space: pre-line;
+}
+
+.option {
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+.option:hover {
+  color: #f54848;
+}
+footer {
+    position: fixed;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  background: transparent;
+  padding: 0;
+}
+
+#botao-inicio {
+    position: fixed;
+    left: 10px;
+    bottom:10px;
+  background-color: #151515;
+  color: #f2f2f2;
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid rgb(21, 255, 0);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#botao-inicio:hover {
+  background-color: rgb(21, 255, 0);
+  color: #000;
+}
