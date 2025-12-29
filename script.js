@@ -4,7 +4,7 @@ const optionsBox = document.getElementById("options");
 const cenas = {
   inicio: {
     texto: "-- Você adormece no seu acampamento na floresta.\n-- Horas depois você acorda numa taverna.\n-- Você não se lembra o que aconteceu.\n-- O que você faz?",
-    imagem: "url('img/acampamento.jpg)",
+    imagem: "url('img/acampamento.jpg')",
     opcoes: [
       { texto: "1 - Olhar ao redor", proxima: "olhar" },
       { texto: "2 - Voltar a dormir", proxima: "dormir" },
@@ -149,5 +149,6 @@ const botaoInicio = document.getElementById('botao-inicio');
 botaoInicio.addEventListener('click', () => {
     carregarCena("inicio");
 });
+
 
 
